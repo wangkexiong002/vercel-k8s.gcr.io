@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/v2/(.*)",
+      "destination": "https://k8s.gcr.io/v2/$1"
+    }
+  ]
+}
